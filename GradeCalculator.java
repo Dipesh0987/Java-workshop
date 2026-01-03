@@ -1,5 +1,27 @@
 package Workshop;
 
 public class GradeCalculator {
-	
+	public double calculateAverage(double [] grades) {
+		if (grades == null || grades.length == 0) {
+			return 0.0;
+		}
+		double sum = 0;
+		for (double grade:grades) {
+			sum = sum + grade;
+		}
+		return sum / grades.length;
+	}
+	public String getGrade(double average) {
+		if (average >= 90) {
+			return "A";
+		}else if(average >= 80) {
+			return "B";
+		}else if(average >= 70) {
+			return "C";
+		}else if(average >= 60) {
+			return "D";
+		}else {
+			return "F";
+		}
+	}
 }
