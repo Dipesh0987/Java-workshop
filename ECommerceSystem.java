@@ -191,7 +191,7 @@ class Customer{
 public class ECommerceSystem {
 	/**
 	 * Main method that runs the e-commerce system.
-	 * Creates products, shoppping cart, customer and demonstrates all functionality
+	 * Creates products, shopping cart, customer and demonstrates all functionality
 	 * @param args Command line arguments
 	 */
     public static void main(String[] args) {
